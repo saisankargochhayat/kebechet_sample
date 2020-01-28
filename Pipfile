@@ -1,10 +1,10 @@
 [dev-packages]
 
 [packages]
-pyflakes = "==0.7"
+pyflakes = "==0.5"
 
 [requires]
-python_version = "3.7"
+python_version = "3.5"
 
 [[source]]
 name = "pypi-org"
