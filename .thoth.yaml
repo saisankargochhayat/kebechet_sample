@@ -14,3 +14,6 @@ recommendation_type: stable
 
 managers:
   - name: info
+  - name: update
+    configuration:
+    labels: [bot]
