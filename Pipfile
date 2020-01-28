@@ -1,0 +1,12 @@
+[dev-packages]
+
+[packages]
+pyflakes = "==0.7"
+
+[requires]
+python_version = "3.7"
+
+[[source]]
+name = "pypi-org"
+url = "https://pypi.org/simple"
+verify_ssl = true

@@ -1,0 +1,16 @@
+host: test.thoth-station.ninja
+tls_verify: false
+requirements_format: pipenv
+version: 1.0
+
+runtime_environments:
+  - name: fedora:28
+    operating_system:
+      name: fedora
+      version: '28'
+    python_version: '3.6'
+
+recommendation_type: stable
+
+managers:
+  - name: info
