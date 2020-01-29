@@ -1,7 +1,0 @@
-repositories:
-  - slug: saisankargochhayat/thamos_sample
-    token: '{GITHUB_KEBECHET_TOKEN}'
-    managers:
-      - name: info
-        configuration:
-          labels: [bot, kebechet]
