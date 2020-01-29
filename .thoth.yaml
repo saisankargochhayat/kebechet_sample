@@ -13,8 +13,4 @@ runtime_environments:
 recommendation_type: stable
 
 managers:
-      - name: pipfile-requirements
-      - name: update
-        configuration:
-          labels: [bot]
       - name: info
