@@ -10,4 +10,4 @@ It has to be installed via UI
 
 Oh ja we love it
 
-ranch
+ranch pinata
