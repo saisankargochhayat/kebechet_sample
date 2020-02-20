@@ -14,6 +14,16 @@ recommendation_type: stable
 
 managers:
       - name: pipfile-requirements
+      - name: version
+        configuration:
+          maintainers:
+            - goern
+            - fridex
+            - saisankargochhayat
+          assignees:
+            - sesheta
+          labels: [bot]
+          changelog_file: true
       - name: update
         configuration:
           labels: [bot]
