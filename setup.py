@@ -1,34 +1,10 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# thoth-package-extract
-# Copyright(C) 2018,2019 Christoph Görn
-#
-# This program is free software: you can redistribute it and / or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program. If not, see <http://www.gnu.org/licenses/>.
-
-"""A foo module for SrcOps-testing."""
-
-
+from setuptools import setup, find_packages
+from pathlib import Path
 import os
-from setuptools import setup
-
-
-with open('README.md') as fh:
-    long_description = fh.read()
 
 
 def get_version():
-    with open('version.py') as f:
+    with open(os.path.join('srcopsmetrics', '__init__.py')) as f:
         content = f.readlines()
 
     for line in content:
@@ -36,30 +12,21 @@ def get_version():
             return line.split(' = ')[1][1:-2]
     raise ValueError("No version identifier found")
 
+
+VERSION = get_version()
+
+HERE = Path(__file__).parent
+README: str = Path(HERE, "README.md").read_text(encoding="utf-8")
+
 setup(
-    name='thoth-srcops-testing',
-    version=get_version(),
-    zip_safe=False,
-    author='Christoph Görn',
-    author_email='goern@redhat.com',
-    maintainer='Christoph Görn',
-    maintainer_email='goern@redhat.com',
-    description='This is a test.',
-    long_description=long_description,
-    long_description_content_type="text/markdown",
-    py_modules=['foo'],
-    url='https://github.com/thoth-station/srcops-testing',
+    name='srcopsmetrics',
+    version=VERSION,
+    twidescription='Source code metrics functionalities for analysing Python GitHub repositories',
+    packages=find_packages(),
+    long_description=README,
+    long_description_content_type='text/markdown',
+    author='Francesco Murdaca, Dominik Tuchyna',
+    author_email='fmurdaca@redhat.com, xtuchyna@redhat.com',
     license='GPLv3+',
-    keywords='srcops thoth zuul',
-    classifiers=[
-        "Development Status :: 4 - Beta",
-        "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.6",
-        "Environment :: Console",
-        "Intended Audience :: Developers",
-        "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
-        "Operating System :: OS Independent",
-        "Programming Language :: Python :: Implementation :: CPython",
-        "Programming Language :: Python :: Implementation :: PyPy"
-    ]
+    url='https://github.com/AICoE/SrcOpsMetrics',
 )

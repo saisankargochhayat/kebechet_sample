@@ -4,9 +4,21 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+numpy = "*"
+pygithub = "*"
+matplotlib = "*"
+pandas = "*"
+thoth-storages = "*"
 
 [dev-packages]
 pytest = "*"
 pytest-timeout = "*"
 pytest-cov = "*"
 coala-bears = "*"
+twine = "*"
+
+[requires]
+python_version = "3.6"
+
+[pipenv]
+allow_prereleases = true
