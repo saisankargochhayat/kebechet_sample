@@ -137,3 +137,20 @@ all the things that you see...
 * Update added
 * Update added
 * Update added
+
+## Release 2.0.1 (2020-02-25T14:20:42)
+* Added version
+* Release of version 0.4.0
+* Release of version 0.3.0
+* Release of version 0.2.4
+* Added
+* demo
+* Update .thoth.yaml
+* Update README.md
+* Update .thoth.yaml
+* Update .thoth.yaml
+* Update .thoth.yaml
+* Added new stuff
+* Update added
+* Update added
+* Update added
