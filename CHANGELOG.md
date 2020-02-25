@@ -95,3 +95,45 @@ all the things that you see...
 * Add docstrings and fix typos
 * Add alias for --projects argument
 * Add API rate limit check and wait
+
+## Release 0.2.4 (2020-02-20T09:58:20)
+* Added
+* demo
+* Update .thoth.yaml
+* Update README.md
+* Update .thoth.yaml
+* Update .thoth.yaml
+* Update .thoth.yaml
+* Added new stuff
+* Update added
+* Update added
+* Update added
+
+## Release 0.3.0 (2020-02-20T10:05:24)
+* Release of version 0.2.4
+* Added
+* demo
+* Update .thoth.yaml
+* Update README.md
+* Update .thoth.yaml
+* Update .thoth.yaml
+* Update .thoth.yaml
+* Added new stuff
+* Update added
+* Update added
+* Update added
+
+## Release 0.4.0 (2020-02-25T09:39:04)
+* Release of version 0.3.0
+* Release of version 0.2.4
+* Added
+* demo
+* Update .thoth.yaml
+* Update README.md
+* Update .thoth.yaml
+* Update .thoth.yaml
+* Update .thoth.yaml
+* Added new stuff
+* Update added
+* Update added
+* Update added
