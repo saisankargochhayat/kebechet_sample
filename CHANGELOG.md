@@ -153,3 +153,22 @@ all the things that you see...
 * Update added
 * Update added
 * Update added
+
+## Release 0.4.2 (2020-02-26T14:36:58)
+* Delete __about__.py
+* Added version
+* Release of version 0.4.1
+* Release of version 0.4.0
+* Release of version 0.3.0
+* Release of version 0.2.4
+* Added
+* demo
+* Update .thoth.yaml
+* Update README.md
+* Update .thoth.yaml
+* Update .thoth.yaml
+* Update .thoth.yaml
+* Added new stuff
+* Update added
+* Update added
+* Update added
