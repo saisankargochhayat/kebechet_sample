@@ -192,3 +192,7 @@ all the things that you see...
 * Update added
 * Update added
 * Update added
+
+## Release 0.5.0 (2020-03-03T11:11:37)
+* :pushpin: Automatic update of dependency thoth-storages from 0.22.2 to 0.22.3
+* Some change
