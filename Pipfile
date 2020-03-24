@@ -4,21 +4,26 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-numpy = "*"
-pygithub = "*"
-matplotlib = "*"
-pandas = "*"
 thoth-storages = "*"
+ipython = "*"
+ipykernel = "*"
+requests = "*"
+networkx = "*"
+pandas = "*"
+pandas-profiling = "*"
+prettyprinter = "*"
+# visualizations
+plotly = "*"
+cufflinks = "*"
+matplotlib = "*"
+# nbextensions
+jupyter-require = "*"
+jupyter_contrib_nbextensions = "*"  # needed by pipenv shell
+sklearn = "*"
 
 [dev-packages]
-pytest = "*"
-pytest-timeout = "*"
-pytest-cov = "*"
-coala-bears = "*"
-twine = "*"
+autopep8 = "*"
+v = {editable = true,version = "*"}
 
 [requires]
 python_version = "3.6"
-
-[pipenv]
-allow_prereleases = true
