@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "42908cd3b7f73da8023931833ddbe4a5724e8867d45479f119b393261c1d15a6"
+            "sha256": "eb6023826197e57022c126d62eb8eb1cc066241b66cefb528a59e8995101fc11"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -181,6 +181,10 @@
             ],
             "markers": "python_version < '3.7'",
             "version": "==1.1.0"
+        },
+        "igitt": {
+            "git": "https://gitlab.com/gitmate/open-source/IGitt.git",
+            "ref": "9f5faceb3b76ca44b2988f38371f4e3f4afd5672"
         },
         "importlib-metadata": {
             "hashes": [
