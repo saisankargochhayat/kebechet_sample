@@ -192,3 +192,18 @@ all the things that you see...
 * Update added
 * Update added
 * Update added
+
+## Release 0.4.4 (2020-05-11T13:58:56)
+* Temp disable update
+* :pushpin: Automatic update of dependency pylint from 2.5.0 to 2.5.2
+* :pushpin: Automatic update of dependency pytest from 5.4.1 to 5.4.2
+* :pushpin: Automatic update of dependency thoth-common from 0.13.2 to 0.13.3
+* :pushpin: Automatic update of dependency semver from 2.9.1 to 2.10.0
+* Initial dependency lock
+* removed pip
+* igit
+* pip fixed
+* Replicated kebechet pipfile
+* try sample
+* :pushpin: Automatic update of dependency thoth-storages from 0.22.2 to 0.22.3
+* Some change
