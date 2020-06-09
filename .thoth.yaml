@@ -1,16 +1,15 @@
-host: test.thoth-station.ninja
+host: khemenu.thoth-station.ninja
 tls_verify: false
 requirements_format: pipenv
-version: 1.0
 
 runtime_environments:
-  - name: fedora:28
+  - name: 'rhel:8'
     operating_system:
-      name: fedora
-      version: '28'
-    python_version: '3.6'
-
-recommendation_type: stable
+      name: rhel
+      version: "8.0"
+    python_version: "3.6"
+    recommendation_type: latest
+    limit_latest_versions: 5
 
 managers:
       - name: pipfile-requirements
