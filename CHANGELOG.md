@@ -207,3 +207,9 @@ all the things that you see...
 * try sample
 * :pushpin: Automatic update of dependency thoth-storages from 0.22.2 to 0.22.3
 * Some change
+
+## Release 0.4.6 (2020-06-10T17:55:53)
+* Update __init__.py
+* Update __init__.py
+* :pushpin: Automatic update of dependency semver from 2.10.0 to 2.10.1
+* :pushpin: Automatic update of dependency pyyaml from 3.13 to 5.3.1
