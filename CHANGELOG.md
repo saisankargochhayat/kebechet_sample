@@ -213,3 +213,7 @@ all the things that you see...
 * Update __init__.py
 * :pushpin: Automatic update of dependency semver from 2.10.0 to 2.10.1
 * :pushpin: Automatic update of dependency pyyaml from 3.13 to 5.3.1
+
+## Release 0.4.8 (2020-06-10T18:06:27)
+* :pushpin: Automatic update of dependency pytest-cov from 2.8.1 to 2.9.0
+* :pushpin: Automatic update of dependency pytest from 5.4.2 to 5.4.3
