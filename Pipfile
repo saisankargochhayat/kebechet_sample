@@ -8,7 +8,6 @@ click = "*"
 pyyaml = "*"
 semver = "*"
 thamos = "*"
-importlib-metadata = "==2.0.0"
 
 [dev-packages]
 pytest = "*"
