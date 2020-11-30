@@ -217,3 +217,14 @@ all the things that you see...
 ## Release 0.4.8 (2020-06-10T18:06:27)
 * :pushpin: Automatic update of dependency pytest-cov from 2.8.1 to 2.9.0
 * :pushpin: Automatic update of dependency pytest from 5.4.2 to 5.4.3
+
+## Release 0.4.9 (2020-11-30T18:29:11)
+### Features
+* Update __init__.py
+* Update __init__.py
+* added new piplock
+* Update Pipfile
+* asdasd
+* asdasd
+* Old pipfile
+* asdasd
