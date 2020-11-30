@@ -217,3 +217,64 @@ all the things that you see...
 ## Release 0.4.8 (2020-06-10T18:06:27)
 * :pushpin: Automatic update of dependency pytest-cov from 2.8.1 to 2.9.0
 * :pushpin: Automatic update of dependency pytest from 5.4.2 to 5.4.3
+
+## Release 0.4.10 (2020-11-30T23:15:04)
+### Features
+* Update __init__.py
+* added new piplock
+* Update Pipfile
+* asdasd
+* asdasd
+* Old pipfile
+* asdasd
+* Release of version 0.4.8
+* Update __init__.py
+* Release of version 0.4.6
+* Update __init__.py
+* Update __init__.py
+* Update .thoth.yaml
+* Random change
+* Release of version 0.4.4
+* Temp disable update
+* Initial dependency lock
+* igit
+* Replicated kebechet pipfile
+* try sample
+* Some change
+* Release of version 0.4.3
+* Release of version 0.4.2
+* Delete __about__.py
+* Added version
+* Release of version 0.4.1
+* Release of version 0.4.0
+* Release of version 0.3.0
+* Release of version 0.2.4
+* Added
+* demo
+* Update .thoth.yaml
+* Update README.md
+* Update .thoth.yaml
+* Update .thoth.yaml
+* Update .thoth.yaml
+* Added new stuff
+* Update added
+* Update added
+* Update added
+### Bug Fixes
+* pip fixed
+### Improvements
+* updated .thoth
+* removed pip
+### Automatic Updates
+* :pushpin: Automatic update of dependency pylint from 2.5.2 to 2.5.3
+* :pushpin: Automatic update of dependency pytest-cov from 2.8.1 to 2.9.0
+* :pushpin: Automatic update of dependency pytest from 5.4.2 to 5.4.3
+* :pushpin: Automatic update of dependency semver from 2.10.0 to 2.10.1
+* :pushpin: Automatic update of dependency pyyaml from 3.13 to 5.3.1
+* :pushpin: Automatic update of dependency toml from 0.10.0 to 0.10.1
+* :pushpin: Automatic update of dependency pipenv from 2018.11.26 to 2020.6.2
+* :pushpin: Automatic update of dependency pylint from 2.5.0 to 2.5.2
+* :pushpin: Automatic update of dependency pytest from 5.4.1 to 5.4.2
+* :pushpin: Automatic update of dependency thoth-common from 0.13.2 to 0.13.3
+* :pushpin: Automatic update of dependency semver from 2.9.1 to 2.10.0
+* :pushpin: Automatic update of dependency thoth-storages from 0.22.2 to 0.22.3
