@@ -13,6 +13,7 @@ runtime_environments:
 
 managers:
       - name: pipfile-requirements
+      - name: label-bot
       - name: version
         configuration:
           maintainers:
@@ -27,3 +28,4 @@ managers:
         configuration:
           labels: [bot]
       - name: info
+ 
